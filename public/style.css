@@ -1,0 +1,82 @@
+/* .bg-default {
+    background-color: #e8f0fe !important;
+} */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    /* background: none !important; */
+    /* The image used */
+    background-image: url(./login-bg.png) !important;
+
+    
+}
+
+.login-page .RaLogin-card {
+    width: 445px !important
+}
+.login-page .RaLoginForm-content {
+    width: auto !important
+}
+.login-page  .RaLogin-card {
+    padding: 1rem !important;
+}
+
+.login-page .RaLogin-avatar {
+    background-image: url(./logo.png) !important;
+    /* Full height */
+    height: 100%; 
+    /* width: 100px; */
+    height: 100px;
+    margin: 0 auto !important;
+    position: relative;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px !important;
+}
+
+.login-page .RaLogin-avatar .RaLogin-icon {
+    display: none;
+}
+/* .login-page .RaLogin-card {
+    margin-top: 0px !important;
+} */
+.login-page .RaLogin-avatar:after{
+    content: 'Trinity Dashboard Admin';
+    position: absolute;
+    position: absolute;
+    top: 106%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.RaSidebar-fixed {
+    background-color: #3a98d924 !important;
+    box-shadow: 0.2rem 0 1rem rgba(0,0,0,0.5);
+}
+
+.RaSidebar-fixed .RaMenuItemLink-icon {
+    color: #2196f3 !important;
+}
+
+.RaMenuItemLink-active {
+    background: aliceblue !important
+}
+.login-page input[type="text"]{
+    background-image: url(./user.png);
+    background-position: 97% 10px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+.login-page input[type="password"]{
+    background-image: url(./lock.png);
+    background-position: 97% 10px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
